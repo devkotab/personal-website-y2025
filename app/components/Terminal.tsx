@@ -1,7 +1,8 @@
 "use client";
 import { useState, useCallback, FormEvent, KeyboardEvent, Key } from "react";
-import styles from "../styles/terminal.module.css";
 import { handleCommand, getAvailableCommands } from "../utils/commandHandler";
+
+import styles from "../styles/terminal.module.css";
 
 type Output = string[];
 
@@ -63,7 +64,7 @@ export default function Terminal() {
     <div className={styles.body}>
       <div className={styles.terminal}>
         <div className={styles.output}>
-          {output.map((line: any, index: Key | null | undefined) => (
+          {output.map((line: string, index: number) => (
             <div key={index} dangerouslySetInnerHTML={{ __html: line }}></div>
           ))}
         </div>
