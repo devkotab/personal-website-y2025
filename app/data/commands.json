@@ -1,0 +1,8 @@
+{
+  "about": "Hi! My name is Bipin Devkota. I am based in Wellington, New Zealand.\nI’m a results-driven Software Engineer with over 4 years of experience in:\n  - API integration\n  - Cross-platform development\n  - POS system enhancements\nKnown for:\n  - Analytical skills\n  - Attention to detail\n  - High-impact solutions that improve customer satisfaction and operational efficiency\nSpecialised in:\n  - Building scalable, high-performance solutions in agile, fast-paced environments.",
+  "skills": "Languages & Databases:\n  - JavaScript, TypeScript, PHP, SQL, Java\nFrameworks & Technologies:\n  - React, React Native, Firebase, Node.js, Symfony, CodeIgniter\nTools & Platforms:\n  - Git, Docker, AWS, Postman, Splunk, Datadog",
+  "experience": "Software Engineer, MOBIHQ (HHM Global), Wellington (Feb 2021 - Current):\n  - Integral member of the integration team\n  - Expertise in object-oriented programming and agile practices\n  - Focus on robust code organisation and reusability\n\nSenior Technical Analyst T3, Concentrix Wellington (Jan 2020 - Feb 2021):\n  - Utilised modern data platforms to apply business rules\n  - Transformed company policy into measurable outcomes",
+  "education": "- Level 9 Masters of Information Technology - Whitecliffe College (July 2024 - July 2025 TBC)\n  Specialisations:\n    - Technology Management\n    - Cybersecurity\n    - Machine Learning, and more",
+  "help": "Available commands:\n  - about\n  - skills\n  - experience\n  - education\n  - help\n  - contact",
+  "contact": "Reach me at <a href='mailto:bipindevkota1@gmail.com'>bipindevkota1@gmail.com</a>"
+}

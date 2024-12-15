@@ -1,0 +1,50 @@
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  background-color: #000;
+  color: #0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.terminal {
+  width: 80%;
+  max-width: 800px;
+  background-color: #111;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+  overflow-y: auto;
+  height: 70vh;
+}
+
+.output {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  margin-bottom: 10px;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+}
+
+.prompt {
+  color: #0f0;
+  font-family: monospace;
+  font-size: 1rem;
+  margin-right: 5px;
+}
+
+.input {
+  flex: 1;
+  background: none;
+  border: none;
+  color: #0f0;
+  font-family: monospace;
+  font-size: 1rem;
+  outline: none;
+}
