@@ -8,10 +8,11 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  overflow: hidden;
 }
 
 .terminal {
-  width: 80%;
+  width: 90%;
   max-width: 800px;
   background-color: #111;
   padding: 20px;
@@ -19,23 +20,26 @@
   box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
   overflow-y: auto;
   height: 70vh;
+  max-height: 80vh;
 }
 
 .output {
   white-space: pre-wrap;
   overflow-wrap: break-word;
   margin-bottom: 10px;
+  font-size: 1rem;
 }
 
 .inputContainer {
   display: flex;
   align-items: center;
+  margin-top: 10px;
 }
 
 .prompt {
   color: #0f0;
   font-family: monospace;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-right: 5px;
 }
 
@@ -45,6 +49,24 @@
   border: none;
   color: #0f0;
   font-family: monospace;
-  font-size: 1rem;
+  font-size: 1.2rem;
   outline: none;
+  padding: 5px 10px;
+  width: calc(100% - 40px);
+}
+
+@media (max-width: 768px) {
+  .terminal {
+    width: 95%;
+    height: 60vh;
+  }
+
+  .prompt,
+  .input {
+    font-size: 1.1rem;
+  }
+
+  .input {
+    font-size: 1.3rem;
+  }
 }
