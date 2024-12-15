@@ -1,6 +1,6 @@
 .body {
   margin: 0;
-  padding-top: 25;
+  padding-top: 25px;
   font-family: monospace;
   background-color: #000;
   color: #0f0;
@@ -58,7 +58,7 @@
 @media (max-width: 768px) {
   .terminal {
     width: 95%;
-    height: 95%;
+    height: 90%;
   }
 
   .prompt,
