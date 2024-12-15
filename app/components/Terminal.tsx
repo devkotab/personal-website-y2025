@@ -1,5 +1,5 @@
 "use client";
-import { useState, useCallback, FormEvent, KeyboardEvent, Key } from "react";
+import { useState, useCallback, FormEvent, KeyboardEvent } from "react";
 import { handleCommand, getAvailableCommands } from "../utils/commandHandler";
 
 import styles from "../styles/terminal.module.css";
